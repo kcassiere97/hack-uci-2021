@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7EFF980725C52D5400EC1DED /* avalonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF980625C52D5400EC1DED /* avalonApp.swift */; };
+		68C5058D591219B5EC576B60 /* Pods_avalonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30FA54D04D1ED9975D98704 /* Pods_avalonTests.framework */; };
 		7EFF980925C52D5400EC1DED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF980825C52D5400EC1DED /* ContentView.swift */; };
 		7EFF980B25C52D5900EC1DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF980A25C52D5900EC1DED /* Assets.xcassets */; };
 		7EFF980E25C52D5900EC1DED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF980D25C52D5900EC1DED /* Preview Assets.xcassets */; };
 		7EFF981925C52D5900EC1DED /* avalonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF981825C52D5900EC1DED /* avalonTests.swift */; };
 		7EFF982425C52D5900EC1DED /* avalonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF982325C52D5900EC1DED /* avalonUITests.swift */; };
+		9987CC9025C5AEFE0062B1B0 /* avalonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987CC8F25C5AEFE0062B1B0 /* avalonApp.swift */; };
+		99E8F82525C52F24009D2285 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99E8F82425C52F24009D2285 /* GoogleService-Info.plist */; };
+		99E8F84325C5310D009D2285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8F84225C5310D009D2285 /* AppDelegate.swift */; };
+		9E695CBCF24B4170E8C0C4F1 /* Pods_avalon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9BE9D9510B1E2518959551 /* Pods_avalon.framework */; };
+		A0CC015234E54EF06EE9398D /* Pods_avalon_avalonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C4141A10E5C31E3B1B4353 /* Pods_avalon_avalonUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D4C2E47A39E7704A2907970 /* Pods-avalon-avalonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avalon-avalonUITests.debug.xcconfig"; path = "Target Support Files/Pods-avalon-avalonUITests/Pods-avalon-avalonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F91EE0242C8FE7E6B0C44A1 /* Pods-avalon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avalon.debug.xcconfig"; path = "Target Support Files/Pods-avalon/Pods-avalon.debug.xcconfig"; sourceTree = "<group>"; };
+		60C4141A10E5C31E3B1B4353 /* Pods_avalon_avalonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_avalon_avalonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662BE0800C0038CEF4EA37B9 /* Pods-avalonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avalonTests.release.xcconfig"; path = "Target Support Files/Pods-avalonTests/Pods-avalonTests.release.xcconfig"; sourceTree = "<group>"; };
 		7EFF980325C52D5400EC1DED /* avalon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avalon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EFF980625C52D5400EC1DED /* avalonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avalonApp.swift; sourceTree = "<group>"; };
 		7EFF980825C52D5400EC1DED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EFF980A25C52D5900EC1DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EFF980D25C52D5900EC1DED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +53,14 @@
 		7EFF981F25C52D5900EC1DED /* avalonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avalonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFF982325C52D5900EC1DED /* avalonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avalonUITests.swift; sourceTree = "<group>"; };
 		7EFF982525C52D5900EC1DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C34FB92D41E50B2B13FAFB /* Pods-avalon-avalonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avalon-avalonUITests.release.xcconfig"; path = "Target Support Files/Pods-avalon-avalonUITests/Pods-avalon-avalonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8271D33E844CE196CCE43AE9 /* Pods-avalonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avalonTests.debug.xcconfig"; path = "Target Support Files/Pods-avalonTests/Pods-avalonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9987CC8F25C5AEFE0062B1B0 /* avalonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avalonApp.swift; sourceTree = "<group>"; };
+		99E8F82425C52F24009D2285 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99E8F84225C5310D009D2285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7ACAA80EF26C8FAEB1F5689 /* Pods-avalon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avalon.release.xcconfig"; path = "Target Support Files/Pods-avalon/Pods-avalon.release.xcconfig"; sourceTree = "<group>"; };
+		B30FA54D04D1ED9975D98704 /* Pods_avalonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_avalonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9BE9D9510B1E2518959551 /* Pods_avalon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_avalon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E695CBCF24B4170E8C0C4F1 /* Pods_avalon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C5058D591219B5EC576B60 /* Pods_avalonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CC015234E54EF06EE9398D /* Pods_avalon_avalonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AB3B35F6C83EF7018E0082D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F91EE0242C8FE7E6B0C44A1 /* Pods-avalon.debug.xcconfig */,
+				A7ACAA80EF26C8FAEB1F5689 /* Pods-avalon.release.xcconfig */,
+				4D4C2E47A39E7704A2907970 /* Pods-avalon-avalonUITests.debug.xcconfig */,
+				80C34FB92D41E50B2B13FAFB /* Pods-avalon-avalonUITests.release.xcconfig */,
+				8271D33E844CE196CCE43AE9 /* Pods-avalonTests.debug.xcconfig */,
+				662BE0800C0038CEF4EA37B9 /* Pods-avalonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7EFF97FA25C52D5400EC1DED = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +111,8 @@
 				7EFF981725C52D5900EC1DED /* avalonTests */,
 				7EFF982225C52D5900EC1DED /* avalonUITests */,
 				7EFF980425C52D5400EC1DED /* Products */,
+				1AB3B35F6C83EF7018E0082D /* Pods */,
+				A7970F23B51FB0B1B96BE69A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,10 +129,12 @@
 		7EFF980525C52D5400EC1DED /* avalon */ = {
 			isa = PBXGroup;
 			children = (
-				7EFF980625C52D5400EC1DED /* avalonApp.swift */,
+				99E8F84225C5310D009D2285 /* AppDelegate.swift */,
 				7EFF980825C52D5400EC1DED /* ContentView.swift */,
+				9987CC8F25C5AEFE0062B1B0 /* avalonApp.swift */,
 				7EFF980A25C52D5900EC1DED /* Assets.xcassets */,
 				7EFF980F25C52D5900EC1DED /* Info.plist */,
+				99E8F82425C52F24009D2285 /* GoogleService-Info.plist */,
 				7EFF980C25C52D5900EC1DED /* Preview Content */,
 			);
 			path = avalon;
@@ -130,6 +166,16 @@
 			path = avalonUITests;
 			sourceTree = "<group>";
 		};
+		A7970F23B51FB0B1B96BE69A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BE9D9510B1E2518959551 /* Pods_avalon.framework */,
+				60C4141A10E5C31E3B1B4353 /* Pods_avalon_avalonUITests.framework */,
+				B30FA54D04D1ED9975D98704 /* Pods_avalonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EFF982825C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalon" */;
 			buildPhases = (
+				219D786CE161F0A48E97B4BF /* [CP] Check Pods Manifest.lock */,
 				7EFF97FF25C52D5400EC1DED /* Sources */,
 				7EFF980025C52D5400EC1DED /* Frameworks */,
 				7EFF980125C52D5400EC1DED /* Resources */,
+				1986EB2A8DC88696737942AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EFF982B25C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalonTests" */;
 			buildPhases = (
+				0BFFDE7C892AD5D30FB2EEE0 /* [CP] Check Pods Manifest.lock */,
 				7EFF981025C52D5900EC1DED /* Sources */,
 				7EFF981125C52D5900EC1DED /* Frameworks */,
 				7EFF981225C52D5900EC1DED /* Resources */,
@@ -172,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EFF982E25C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalonUITests" */;
 			buildPhases = (
+				A258A402381E1DA8D5D452AC /* [CP] Check Pods Manifest.lock */,
 				7EFF981B25C52D5900EC1DED /* Sources */,
 				7EFF981C25C52D5900EC1DED /* Frameworks */,
 				7EFF981D25C52D5900EC1DED /* Resources */,
+				86F715EF3D8E6C0AC9B0FC5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +286,7 @@
 			files = (
 				7EFF980E25C52D5900EC1DED /* Preview Assets.xcassets in Resources */,
 				7EFF980B25C52D5900EC1DED /* Assets.xcassets in Resources */,
+				99E8F82525C52F24009D2285 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +306,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BFFDE7C892AD5D30FB2EEE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-avalonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1986EB2A8DC88696737942AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avalon/Pods-avalon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avalon/Pods-avalon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-avalon/Pods-avalon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		219D786CE161F0A48E97B4BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-avalon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F715EF3D8E6C0AC9B0FC5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avalon-avalonUITests/Pods-avalon-avalonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avalon-avalonUITests/Pods-avalon-avalonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-avalon-avalonUITests/Pods-avalon-avalonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A258A402381E1DA8D5D452AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-avalon-avalonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EFF97FF25C52D5400EC1DED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E8F84325C5310D009D2285 /* AppDelegate.swift in Sources */,
 				7EFF980925C52D5400EC1DED /* ContentView.swift in Sources */,
-				7EFF980725C52D5400EC1DED /* avalonApp.swift in Sources */,
+				9987CC9025C5AEFE0062B1B0 /* avalonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +570,7 @@
 		};
 		7EFF982925C52D5900EC1DED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F91EE0242C8FE7E6B0C44A1 /* Pods-avalon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +593,7 @@
 		};
 		7EFF982A25C52D5900EC1DED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7ACAA80EF26C8FAEB1F5689 /* Pods-avalon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +616,7 @@
 		};
 		7EFF982C25C52D5900EC1DED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8271D33E844CE196CCE43AE9 /* Pods-avalonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +639,7 @@
 		};
 		7EFF982D25C52D5900EC1DED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662BE0800C0038CEF4EA37B9 /* Pods-avalonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +662,7 @@
 		};
 		7EFF982F25C52D5900EC1DED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4C2E47A39E7704A2907970 /* Pods-avalon-avalonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +683,7 @@
 		};
 		7EFF983025C52D5900EC1DED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C34FB92D41E50B2B13FAFB /* Pods-avalon-avalonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

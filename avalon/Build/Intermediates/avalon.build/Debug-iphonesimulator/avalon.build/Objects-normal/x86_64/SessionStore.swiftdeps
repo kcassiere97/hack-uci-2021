@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SessionStore"
+- "User"
+provides-nominal:
+- "6avalon12SessionStoreC"
+- "6avalon4UserV"
+provides-member:
+- ["6avalon12SessionStoreC", ""]
+- ["6avalon4UserV", ""]
+provides-dynamic-lookup:
+- "$session"
+- "_session"
+- "didChange"
+- "handle"
+- "listen"
+- "session"
+- "signIn"
+- "signOut"
+- "signUp"
+- "unbind"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Auth"
+- "AuthDataResultCallback"
+- "AuthStateDidChangeListenerHandle"
+- "NSError"
+- "Never"
+- "ObservableObject"
+- "PassthroughSubject"
+- "Published"
+- "SessionStore"
+- "String"
+- !private "StringLiteralType"
+- "User"
+- !private "handle"
+- !private "print"
+- !private "unbind"
+depends-member:
+- !private ["So7FIRAuthC", "addStateDidChangeListener"]
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "createUser"]
+- !private ["So7FIRAuthC", "removeStateDidChangeListener"]
+- !private ["So7FIRAuthC", "signIn"]
+- !private ["So7FIRAuthC", "signOut"]
+- !private ["s7CVarArgP", "addStateDidChangeListener"]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "createUser"]
+- !private ["s7CVarArgP", "email"]
+- !private ["s7CVarArgP", "removeStateDidChangeListener"]
+- !private ["s7CVarArgP", "signIn"]
+- !private ["s7CVarArgP", "signOut"]
+- !private ["s7CVarArgP", "uid"]
+- !private ["s28CustomDebugStringConvertibleP", "addStateDidChangeListener"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "createUser"]
+- !private ["s28CustomDebugStringConvertibleP", "email"]
+- !private ["s28CustomDebugStringConvertibleP", "removeStateDidChangeListener"]
+- !private ["s28CustomDebugStringConvertibleP", "signIn"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- !private ["s28CustomDebugStringConvertibleP", "uid"]
+- !private ["s23CustomStringConvertibleP", "addStateDidChangeListener"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "createUser"]
+- !private ["s23CustomStringConvertibleP", "email"]
+- !private ["s23CustomStringConvertibleP", "removeStateDidChangeListener"]
+- !private ["s23CustomStringConvertibleP", "signIn"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- !private ["s23CustomStringConvertibleP", "uid"]
+- !private ["SQ", ""]
+- !private ["SQ", "addStateDidChangeListener"]
+- !private ["SQ", "auth"]
+- !private ["SQ", "createUser"]
+- !private ["SQ", "email"]
+- !private ["SQ", "removeStateDidChangeListener"]
+- !private ["SQ", "signIn"]
+- !private ["SQ", "signOut"]
+- !private ["SQ", "uid"]
+- !private ["SH", "addStateDidChangeListener"]
+- !private ["SH", "auth"]
+- !private ["SH", "createUser"]
+- !private ["SH", "email"]
+- !private ["SH", "removeStateDidChangeListener"]
+- !private ["SH", "signIn"]
+- !private ["SH", "signOut"]
+- !private ["SH", "uid"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addAuthStateDidChangeListener"]
+- !private ["So8NSObjectC", "addStateDidChangeListener"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "authWithApp"]
+- !private ["So8NSObjectC", "createUser"]
+- !private ["So8NSObjectC", "createUserWithEmail"]
+- !private ["So8NSObjectC", "email"]
+- !private ["So8NSObjectC", "removeAuthStateDidChangeListener"]
+- !private ["So8NSObjectC", "removeStateDidChangeListener"]
+- !private ["So8NSObjectC", "signIn"]
+- !private ["So8NSObjectC", "signInWithCredential"]
+- !private ["So8NSObjectC", "signInWithCustomToken"]
+- !private ["So8NSObjectC", "signInWithEmail"]
+- !private ["So8NSObjectC", "signInWithProvider"]
+- !private ["So8NSObjectC", "signOut"]
+- !private ["So8NSObjectC", "uid"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAuthStateDidChangeListener"]
+- !private ["So8NSObjectP", "addStateDidChangeListener"]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "authWithApp"]
+- !private ["So8NSObjectP", "createUser"]
+- !private ["So8NSObjectP", "createUserWithEmail"]
+- !private ["So8NSObjectP", "email"]
+- !private ["So8NSObjectP", "removeAuthStateDidChangeListener"]
+- !private ["So8NSObjectP", "removeStateDidChangeListener"]
+- !private ["So8NSObjectP", "signIn"]
+- !private ["So8NSObjectP", "signInWithCredential"]
+- !private ["So8NSObjectP", "signInWithCustomToken"]
+- !private ["So8NSObjectP", "signInWithEmail"]
+- !private ["So8NSObjectP", "signInWithProvider"]
+- !private ["So8NSObjectP", "signOut"]
+- !private ["So8NSObjectP", "uid"]
+- !private ["7Combine16ObservableObjectP", "Auth"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Failure"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "PassthroughSubject"]
+- ["7Combine16ObservableObjectP", "Published"]
+- !private ["7Combine16ObservableObjectP", "User"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_session"]
+- !private ["7Combine16ObservableObjectP", "didChange"]
+- !private ["7Combine16ObservableObjectP", "handle"]
+- !private ["7Combine16ObservableObjectP", "listen"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "print"]
+- !private ["7Combine16ObservableObjectP", "session"]
+- !private ["7Combine16ObservableObjectP", "signIn"]
+- !private ["7Combine16ObservableObjectP", "signOut"]
+- !private ["7Combine16ObservableObjectP", "signUp"]
+- !private ["7Combine16ObservableObjectP", "unbind"]
+- ["7Combine18PassthroughSubjectC", "init"]
+- !private ["7Combine18PassthroughSubjectC", "send"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "projectedValue"]
+- ["7Combine9PublishedV", "subscript"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- ["7Combine9PublisherP", ""]
+- ["7Combine9PublisherP", "init"]
+- !private ["7Combine9PublisherP", "send"]
+- ["6avalon12SessionStoreC", "$session"]
+- !private ["6avalon12SessionStoreC", "Auth"]
+- ["6avalon12SessionStoreC", "AuthDataResultCallback"]
+- ["6avalon12SessionStoreC", "AuthStateDidChangeListenerHandle"]
+- ["6avalon12SessionStoreC", "Default_ObjectWillChangePublisher"]
+- !private ["6avalon12SessionStoreC", "NSError"]
+- ["6avalon12SessionStoreC", "Never"]
+- ["6avalon12SessionStoreC", "ObjectWillChangePublisher"]
+- ["6avalon12SessionStoreC", "PassthroughSubject"]
+- ["6avalon12SessionStoreC", "Published"]
+- ["6avalon12SessionStoreC", "SessionStore"]
+- ["6avalon12SessionStoreC", "String"]
+- ["6avalon12SessionStoreC", "User"]
+- ["6avalon12SessionStoreC", ""]
+- ["6avalon12SessionStoreC", "_Default_ObjectWillChangePublisher"]
+- !private ["6avalon12SessionStoreC", "_session"]
+- ["6avalon12SessionStoreC", "deinit"]
+- ["6avalon12SessionStoreC", "didChange"]
+- ["6avalon12SessionStoreC", "handle"]
+- ["6avalon12SessionStoreC", "init"]
+- ["6avalon12SessionStoreC", "listen"]
+- ["6avalon12SessionStoreC", "objectWillChange"]
+- !private ["6avalon12SessionStoreC", "print"]
+- ["6avalon12SessionStoreC", "session"]
+- ["6avalon12SessionStoreC", "signIn"]
+- ["6avalon12SessionStoreC", "signOut"]
+- ["6avalon12SessionStoreC", "signUp"]
+- ["6avalon12SessionStoreC", "unbind"]
+- ["7Combine7SubjectP", "init"]
+- !private ["7Combine7SubjectP", "send"]
+- ["6avalon4UserV", "String"]
+- ["6avalon4UserV", "email"]
+- !private ["So7FIRUserC", "email"]
+- ["6avalon4UserV", "init"]
+- ["6avalon4UserV", "uid"]
+- !private ["So7FIRUserC", "uid"]
+- !private ["So11FIRUserInfoP", "email"]
+- !private ["So11FIRUserInfoP", "uid"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addStateDidChangeListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeStateDidChangeListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addStateDidChangeListener"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "auth"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createUser"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "email"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeStateDidChangeListener"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signIn"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signOut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uid"]
+depends-nominal:
+- !private "So7FIRAuthC"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "7Combine16ObservableObjectP"
+- "7Combine18PassthroughSubjectC"
+- "7Combine9PublishedV"
+- "7Combine9PublisherP"
+- "6avalon12SessionStoreC"
+- "7Combine7SubjectP"
+- "6avalon4UserV"
+- !private "So7FIRUserC"
+- "6avalon4UserV"
+- !private "So7FIRUserC"
+- !private "So11FIRUserInfoP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSource.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTimestamp.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c2d3d703428e2af3788387a6e806bcf8"

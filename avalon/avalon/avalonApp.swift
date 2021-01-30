@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import Firebase
 
-@main
+
+//@main
 struct avalonApp: App {
+//    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()

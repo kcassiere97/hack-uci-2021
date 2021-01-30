@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "61fafa283c93d9630bca141c6b0484b1"
+build_time: [1612017878, 838018000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/AppDelegate.swift": [1611987689, 796336307]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/Views/AuthView.swift": [1612014682, 636807337]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/Views/ContentView.swift": [1612014918, 300578737]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/SessionStore.swift": [1612010055, 147145075]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/SceneDelegate.swift": [1612016118, 723245498]

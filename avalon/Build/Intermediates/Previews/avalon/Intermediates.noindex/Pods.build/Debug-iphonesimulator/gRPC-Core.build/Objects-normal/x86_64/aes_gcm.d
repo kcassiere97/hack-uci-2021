@@ -1,0 +1,47 @@
+dependencies: \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/src/core/tsi/alts/crypt/aes_gcm.cc \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/support/port_platform.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/port_platform.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/src/core/tsi/grpc_shadow_boringssl.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/src/core/tsi/alts/crypt/gsec.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/grpc.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/status.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/status.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/byte_buffer.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/byte_buffer.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/grpc_types.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/compression_types.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/gpr_types.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/slice.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/gpr_slice.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/slice_buffer.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/slice.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/support/sync.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/sync.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/sync_generic.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/atm.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/atm_gcc_atomic.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/sync_posix.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/connectivity_state.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/impl/codegen/propagation_bits.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/support/time.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/bio.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/base.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/is_boringssl.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/opensslconf.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/buffer.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/buf.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/err.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/ex_data.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/stack.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/type_check.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/thread.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/evp.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/aead.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/base64.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/cipher.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/digest.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/nid.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Intermediates/Previews/avalon/Products/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Headers/hmac.h \
+  /Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/gRPC-Core/include/grpc/support/alloc.h
