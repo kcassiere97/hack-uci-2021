@@ -15,7 +15,6 @@
 		7EFF982425C52D5900EC1DED /* avalonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF982325C52D5900EC1DED /* avalonUITests.swift */; };
 		9987CC9025C5AEFE0062B1B0 /* avalonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987CC8F25C5AEFE0062B1B0 /* avalonApp.swift */; };
 		99E8F82525C52F24009D2285 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99E8F82425C52F24009D2285 /* GoogleService-Info.plist */; };
-		99E8F84325C5310D009D2285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8F84225C5310D009D2285 /* AppDelegate.swift */; };
 		9E695CBCF24B4170E8C0C4F1 /* Pods_avalon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9BE9D9510B1E2518959551 /* Pods_avalon.framework */; };
 		A0CC015234E54EF06EE9398D /* Pods_avalon_avalonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C4141A10E5C31E3B1B4353 /* Pods_avalon_avalonUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,7 +56,6 @@
 		8271D33E844CE196CCE43AE9 /* Pods-avalonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avalonTests.debug.xcconfig"; path = "Target Support Files/Pods-avalonTests/Pods-avalonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9987CC8F25C5AEFE0062B1B0 /* avalonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avalonApp.swift; sourceTree = "<group>"; };
 		99E8F82425C52F24009D2285 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		99E8F84225C5310D009D2285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7ACAA80EF26C8FAEB1F5689 /* Pods-avalon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avalon.release.xcconfig"; path = "Target Support Files/Pods-avalon/Pods-avalon.release.xcconfig"; sourceTree = "<group>"; };
 		B30FA54D04D1ED9975D98704 /* Pods_avalonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_avalonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9BE9D9510B1E2518959551 /* Pods_avalon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_avalon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +127,6 @@
 		7EFF980525C52D5400EC1DED /* avalon */ = {
 			isa = PBXGroup;
 			children = (
-				99E8F84225C5310D009D2285 /* AppDelegate.swift */,
 				7EFF980825C52D5400EC1DED /* ContentView.swift */,
 				9987CC8F25C5AEFE0062B1B0 /* avalonApp.swift */,
 				7EFF980A25C52D5900EC1DED /* Assets.xcassets */,
@@ -414,7 +411,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E8F84325C5310D009D2285 /* AppDelegate.swift in Sources */,
 				7EFF980925C52D5400EC1DED /* ContentView.swift in Sources */,
 				9987CC9025C5AEFE0062B1B0 /* avalonApp.swift in Sources */,
 			);

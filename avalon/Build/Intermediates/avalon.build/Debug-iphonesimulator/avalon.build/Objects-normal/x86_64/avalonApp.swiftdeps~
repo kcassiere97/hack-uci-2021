@@ -1,11 +1,134 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "avalonApp"
 provides-nominal:
+- "6avalon0A3AppV"
 provides-member:
+- ["6avalon0A3AppV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "App"
+- "ContentView"
+- "Environment"
+- !private "FirebaseApp"
+- "Scene"
+- "StringLiteralType"
+- !private "WindowGroup"
+- "avalonApp"
+- "print"
+- !private "scenePhase"
 depends-member:
+- !private ["7SwiftUI3AppP", "$main"]
+- ["7SwiftUI3AppP", "Body"]
+- !private ["7SwiftUI3AppP", "ContentView"]
+- ["7SwiftUI3AppP", "Default_Body"]
+- ["7SwiftUI3AppP", "Environment"]
+- !private ["7SwiftUI3AppP", "FirebaseApp"]
+- !private ["7SwiftUI3AppP", "WindowGroup"]
+- ["7SwiftUI3AppP", ""]
+- ["7SwiftUI3AppP", "_Default_Body"]
+- ["7SwiftUI3AppP", "body"]
+- ["7SwiftUI3AppP", "init"]
+- ["7SwiftUI3AppP", "main"]
+- !private ["7SwiftUI3AppP", "print"]
+- !private ["7SwiftUI3AppP", "scenePhase"]
+- !private ["s7CVarArgP", "configure"]
+- !private ["SL", "active"]
+- !private ["SL", "background"]
+- !private ["SL", "inactive"]
+- !private ["6avalon11ContentViewV", ""]
+- !private ["6avalon11ContentViewV", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s23CustomStringConvertibleP", "configure"]
+- ["s23CustomStringConvertibleP", "scenePhase"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- ["7SwiftUI11EnvironmentV", "init"]
+- ["7SwiftUI11EnvironmentV", "projectedValue"]
+- ["7SwiftUI11EnvironmentV", "subscript"]
+- ["7SwiftUI11EnvironmentV", "wrappedValue"]
+- ["7SwiftUI11EnvironmentV", "wrapperValue"]
+- ["7SwiftUI17EnvironmentValuesV", "scenePhase"]
+- !private ["SQ", ""]
+- !private ["SQ", "active"]
+- !private ["SQ", "background"]
+- !private ["SQ", "configure"]
+- !private ["SQ", "inactive"]
+- !private ["So6FIRAppC", "configure"]
+- !private ["SH", "active"]
+- !private ["SH", "background"]
+- !private ["SH", "configure"]
+- !private ["SH", "inactive"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "configure"]
+- !private ["So8NSObjectC", "configureWithName"]
+- !private ["So8NSObjectC", "configureWithOptions"]
+- !private ["So8NSObjectP", "configure"]
+- !private ["So8NSObjectP", "configureWithName"]
+- !private ["So8NSObjectP", "configureWithOptions"]
+- !private ["7SwiftUI5SceneP", "init"]
+- !private ["7SwiftUI5SceneP", "onChange"]
+- !private ["7SwiftUI12SceneBuilderV", "buildBlock"]
+- !private ["7SwiftUI12SceneBuilderV", "buildExpression"]
+- !private ["7SwiftUI12SceneBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI12SceneBuilderV", "buildIf"]
+- !private ["7SwiftUI12SceneBuilderV", "buildOptional"]
+- !private ["7SwiftUI10ScenePhaseO", "active"]
+- !private ["7SwiftUI10ScenePhaseO", "background"]
+- !private ["7SwiftUI10ScenePhaseO", "inactive"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- !private ["7SwiftUI11WindowGroupV", "init"]
+- !private ["7SwiftUI11WindowGroupV", "onChange"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configure"]
+- ["6avalon0A3AppV", "Body"]
+- !private ["6avalon0A3AppV", "ContentView"]
+- ["6avalon0A3AppV", "Default_Body"]
+- ["6avalon0A3AppV", "Environment"]
+- !private ["6avalon0A3AppV", "FirebaseApp"]
+- ["6avalon0A3AppV", "Scene"]
+- !private ["6avalon0A3AppV", "WindowGroup"]
+- ["6avalon0A3AppV", ""]
+- ["6avalon0A3AppV", "_Default_Body"]
+- !private ["6avalon0A3AppV", "_scenePhase"]
+- ["6avalon0A3AppV", "body"]
+- ["6avalon0A3AppV", "init"]
+- ["6avalon0A3AppV", "main"]
+- !private ["6avalon0A3AppV", "print"]
+- ["6avalon0A3AppV", "scenePhase"]
 depends-nominal:
+- "7SwiftUI3AppP"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "6avalon11ContentViewV"
+- !private "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7SwiftUI15DynamicPropertyP"
+- "7SwiftUI11EnvironmentV"
+- "7SwiftUI17EnvironmentValuesV"
+- !private "SQ"
+- !private "So6FIRAppC"
+- !private "SH"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7SwiftUI5SceneP"
+- !private "7SwiftUI12SceneBuilderV"
+- !private "7SwiftUI10ScenePhaseO"
+- !private "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "7SwiftUI11WindowGroupV"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "6avalon0A3AppV"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -114,4 +237,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "138f02fdb5f93c83ab09f035c5517be8"
