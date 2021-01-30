@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EFF980725C52D5400EC1DED /* avalonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF980625C52D5400EC1DED /* avalonApp.swift */; };
+		7EFF980925C52D5400EC1DED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF980825C52D5400EC1DED /* ContentView.swift */; };
+		7EFF980B25C52D5900EC1DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF980A25C52D5900EC1DED /* Assets.xcassets */; };
+		7EFF980E25C52D5900EC1DED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF980D25C52D5900EC1DED /* Preview Assets.xcassets */; };
+		7EFF981925C52D5900EC1DED /* avalonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF981825C52D5900EC1DED /* avalonTests.swift */; };
+		7EFF982425C52D5900EC1DED /* avalonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF982325C52D5900EC1DED /* avalonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EFF981525C52D5900EC1DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFF97FB25C52D5400EC1DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFF980225C52D5400EC1DED;
+			remoteInfo = avalon;
+		};
+		7EFF982025C52D5900EC1DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFF97FB25C52D5400EC1DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFF980225C52D5400EC1DED;
+			remoteInfo = avalon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EFF980325C52D5400EC1DED /* avalon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avalon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFF980625C52D5400EC1DED /* avalonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avalonApp.swift; sourceTree = "<group>"; };
+		7EFF980825C52D5400EC1DED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EFF980A25C52D5900EC1DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EFF980D25C52D5900EC1DED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EFF980F25C52D5900EC1DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFF981425C52D5900EC1DED /* avalonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avalonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFF981825C52D5900EC1DED /* avalonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avalonTests.swift; sourceTree = "<group>"; };
+		7EFF981A25C52D5900EC1DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFF981F25C52D5900EC1DED /* avalonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avalonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFF982325C52D5900EC1DED /* avalonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avalonUITests.swift; sourceTree = "<group>"; };
+		7EFF982525C52D5900EC1DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EFF980025C52D5400EC1DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFF981125C52D5900EC1DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFF981C25C52D5900EC1DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EFF97FA25C52D5400EC1DED = {
+			isa = PBXGroup;
+			children = (
+				7EFF980525C52D5400EC1DED /* avalon */,
+				7EFF981725C52D5900EC1DED /* avalonTests */,
+				7EFF982225C52D5900EC1DED /* avalonUITests */,
+				7EFF980425C52D5400EC1DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFF980425C52D5400EC1DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFF980325C52D5400EC1DED /* avalon.app */,
+				7EFF981425C52D5900EC1DED /* avalonTests.xctest */,
+				7EFF981F25C52D5900EC1DED /* avalonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EFF980525C52D5400EC1DED /* avalon */ = {
+			isa = PBXGroup;
+			children = (
+				7EFF980625C52D5400EC1DED /* avalonApp.swift */,
+				7EFF980825C52D5400EC1DED /* ContentView.swift */,
+				7EFF980A25C52D5900EC1DED /* Assets.xcassets */,
+				7EFF980F25C52D5900EC1DED /* Info.plist */,
+				7EFF980C25C52D5900EC1DED /* Preview Content */,
+			);
+			path = avalon;
+			sourceTree = "<group>";
+		};
+		7EFF980C25C52D5900EC1DED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7EFF980D25C52D5900EC1DED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EFF981725C52D5900EC1DED /* avalonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EFF981825C52D5900EC1DED /* avalonTests.swift */,
+				7EFF981A25C52D5900EC1DED /* Info.plist */,
+			);
+			path = avalonTests;
+			sourceTree = "<group>";
+		};
+		7EFF982225C52D5900EC1DED /* avalonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EFF982325C52D5900EC1DED /* avalonUITests.swift */,
+				7EFF982525C52D5900EC1DED /* Info.plist */,
+			);
+			path = avalonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EFF980225C52D5400EC1DED /* avalon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFF982825C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalon" */;
+			buildPhases = (
+				7EFF97FF25C52D5400EC1DED /* Sources */,
+				7EFF980025C52D5400EC1DED /* Frameworks */,
+				7EFF980125C52D5400EC1DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avalon;
+			productName = avalon;
+			productReference = 7EFF980325C52D5400EC1DED /* avalon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EFF981325C52D5900EC1DED /* avalonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFF982B25C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalonTests" */;
+			buildPhases = (
+				7EFF981025C52D5900EC1DED /* Sources */,
+				7EFF981125C52D5900EC1DED /* Frameworks */,
+				7EFF981225C52D5900EC1DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFF981625C52D5900EC1DED /* PBXTargetDependency */,
+			);
+			name = avalonTests;
+			productName = avalonTests;
+			productReference = 7EFF981425C52D5900EC1DED /* avalonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EFF981E25C52D5900EC1DED /* avalonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFF982E25C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalonUITests" */;
+			buildPhases = (
+				7EFF981B25C52D5900EC1DED /* Sources */,
+				7EFF981C25C52D5900EC1DED /* Frameworks */,
+				7EFF981D25C52D5900EC1DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFF982125C52D5900EC1DED /* PBXTargetDependency */,
+			);
+			name = avalonUITests;
+			productName = avalonUITests;
+			productReference = 7EFF981F25C52D5900EC1DED /* avalonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EFF97FB25C52D5400EC1DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7EFF980225C52D5400EC1DED = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7EFF981325C52D5900EC1DED = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7EFF980225C52D5400EC1DED;
+					};
+					7EFF981E25C52D5900EC1DED = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7EFF980225C52D5400EC1DED;
+					};
+				};
+			};
+			buildConfigurationList = 7EFF97FE25C52D5400EC1DED /* Build configuration list for PBXProject "avalon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EFF97FA25C52D5400EC1DED;
+			productRefGroup = 7EFF980425C52D5400EC1DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EFF980225C52D5400EC1DED /* avalon */,
+				7EFF981325C52D5900EC1DED /* avalonTests */,
+				7EFF981E25C52D5900EC1DED /* avalonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EFF980125C52D5400EC1DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFF980E25C52D5900EC1DED /* Preview Assets.xcassets in Resources */,
+				7EFF980B25C52D5900EC1DED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFF981225C52D5900EC1DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFF981D25C52D5900EC1DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EFF97FF25C52D5400EC1DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFF980925C52D5400EC1DED /* ContentView.swift in Sources */,
+				7EFF980725C52D5400EC1DED /* avalonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFF981025C52D5900EC1DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFF981925C52D5900EC1DED /* avalonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFF981B25C52D5900EC1DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFF982425C52D5900EC1DED /* avalonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EFF981625C52D5900EC1DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFF980225C52D5400EC1DED /* avalon */;
+			targetProxy = 7EFF981525C52D5900EC1DED /* PBXContainerItemProxy */;
+		};
+		7EFF982125C52D5900EC1DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFF980225C52D5400EC1DED /* avalon */;
+			targetProxy = 7EFF982025C52D5900EC1DED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7EFF982625C52D5900EC1DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EFF982725C52D5900EC1DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFF982925C52D5900EC1DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"avalon/Preview Content\"";
+				DEVELOPMENT_TEAM = X369QB9C48;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = avalon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hack-uci-2021.avalon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EFF982A25C52D5900EC1DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"avalon/Preview Content\"";
+				DEVELOPMENT_TEAM = X369QB9C48;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = avalon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hack-uci-2021.avalon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EFF982C25C52D5900EC1DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X369QB9C48;
+				INFOPLIST_FILE = avalonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hack-uci-2021.avalonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/avalon.app/avalon";
+			};
+			name = Debug;
+		};
+		7EFF982D25C52D5900EC1DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X369QB9C48;
+				INFOPLIST_FILE = avalonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hack-uci-2021.avalonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/avalon.app/avalon";
+			};
+			name = Release;
+		};
+		7EFF982F25C52D5900EC1DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X369QB9C48;
+				INFOPLIST_FILE = avalonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hack-uci-2021.avalonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = avalon;
+			};
+			name = Debug;
+		};
+		7EFF983025C52D5900EC1DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X369QB9C48;
+				INFOPLIST_FILE = avalonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hack-uci-2021.avalonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = avalon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EFF97FE25C52D5400EC1DED /* Build configuration list for PBXProject "avalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFF982625C52D5900EC1DED /* Debug */,
+				7EFF982725C52D5900EC1DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFF982825C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFF982925C52D5900EC1DED /* Debug */,
+				7EFF982A25C52D5900EC1DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFF982B25C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFF982C25C52D5900EC1DED /* Debug */,
+				7EFF982D25C52D5900EC1DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFF982E25C52D5900EC1DED /* Build configuration list for PBXNativeTarget "avalonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFF982F25C52D5900EC1DED /* Debug */,
+				7EFF983025C52D5900EC1DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EFF97FB25C52D5400EC1DED /* Project object */;
+}
