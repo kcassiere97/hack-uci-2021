@@ -219,19 +219,12 @@ SWIFT_CLASS("_TtC6Avalon11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
-@class UIImageView;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC6Avalon25LoginSignUpViewController")
-@interface LoginSignUpViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified loginButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified SignUpButton;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified iconImageView;
+SWIFT_CLASS("_TtC6Avalon18FeedViewController")
+@interface FeedViewController : UIViewController
 - (void)viewDidLoad;
-- (IBAction)loginTapped:(id _Nonnull)sender;
-- (IBAction)SignUpTapped:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -244,22 +237,6 @@ SWIFT_CLASS("_TtC6Avalon19LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
-SWIFT_CLASS("_TtC6Avalon21ProfileViewController")
-@interface ProfileViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC6Avalon22RegisterViewController")
-@interface RegisterViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 @class UIWindow;
 @class UIScene;
@@ -277,6 +254,14 @@ SWIFT_CLASS("_TtC6Avalon13SceneDelegate")
 @end
 
 
+SWIFT_CLASS("_TtC6Avalon20SignUpViewController")
+@interface SignUpViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC6Avalon14ViewController")
 @interface ViewController : UIViewController
 - (void)viewDidLoad;
@@ -287,6 +272,14 @@ SWIFT_CLASS("_TtC6Avalon14ViewController")
 
 SWIFT_CLASS("_TtC6Avalon18infoViewController")
 @interface infoViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6Avalon21profileViewController")
+@interface profileViewController : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

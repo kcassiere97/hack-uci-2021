@@ -14,7 +14,6 @@ depends-top-level:
 - !private "MKCoordinateRegion"
 - "MKMapView"
 - "initialLocation"
-- "mapView"
 - !private "setRegion"
 depends-member:
 - ["SK", ""]
@@ -26,40 +25,31 @@ depends-member:
 - !private ["So10CLLocationC", "coordinate"]
 - ["So10CLLocationC", "init"]
 - !private ["s7CVarArgP", "MKCoordinateRegion"]
-- ["s7CVarArgP", "centerToLocation"]
 - !private ["s7CVarArgP", "coordinate"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "setRegion"]
 - ["Sl", ""]
 - ["SL", ""]
 - !private ["s28CustomDebugStringConvertibleP", "MKCoordinateRegion"]
-- ["s28CustomDebugStringConvertibleP", "centerToLocation"]
 - !private ["s28CustomDebugStringConvertibleP", "coordinate"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "setRegion"]
-- ["s17CustomReflectableP", "centerToLocation"]
 - !private ["s23CustomStringConvertibleP", "MKCoordinateRegion"]
 - ["s23CustomStringConvertibleP", ""]
-- ["s23CustomStringConvertibleP", "centerToLocation"]
 - !private ["s23CustomStringConvertibleP", "coordinate"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "setRegion"]
-- ["Se", "centerToLocation"]
-- ["SE", "centerToLocation"]
 - !private ["SQ", "MKCoordinateRegion"]
 - ["SQ", ""]
-- ["SQ", "centerToLocation"]
 - !private ["SQ", "coordinate"]
 - ["SQ", "init"]
 - !private ["SQ", "setRegion"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- ["s23ExpressibleByNilLiteralP", "centerToLocation"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SH", "MKCoordinateRegion"]
 - ["SH", ""]
-- ["SH", "centerToLocation"]
 - !private ["SH", "coordinate"]
 - ["SH", "init"]
 - !private ["SH", "setRegion"]
@@ -69,7 +59,7 @@ depends-member:
 - ["So9MKMapViewC", "CLLocationDistance"]
 - !private ["So9MKMapViewC", "MKCoordinateRegion"]
 - ["So9MKMapViewC", ""]
-- ["So9MKMapViewC", "centerToLocation"]
+- !private ["So9MKMapViewC", "centerToLocation"]
 - !private ["So9MKMapViewC", "setRegion"]
 - ["So8NSCodingP", "CLLocation"]
 - ["So8NSCodingP", "CLLocationDistance"]
@@ -99,7 +89,6 @@ depends-member:
 - !private ["So8NSObjectP", "setRegion"]
 - !private ["So14NSSecureCodingP", "coordinate"]
 - ["So14NSSecureCodingP", "init"]
-- ["Sq", "centerToLocation"]
 - ["ST", ""]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
@@ -187,18 +176,14 @@ depends-member:
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateRegion"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "centerToLocation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setRegion"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MKCoordinateRegion"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centerToLocation"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "coordinate"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setRegion"]
-- ["s21_ObjectiveCBridgeableP", "centerToLocation"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "MKCoordinateRegion"]
-- ["s38__DefaultCustomPlaygroundQuickLookableP", "centerToLocation"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setRegion"]
 depends-nominal:
 - "SK"
@@ -208,13 +193,9 @@ depends-nominal:
 - "Sl"
 - "SL"
 - "s28CustomDebugStringConvertibleP"
-- "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "Se"
-- "SE"
 - "SQ"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- "s23ExpressibleByNilLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
@@ -227,7 +208,6 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - "So14NSSecureCodingP"
-- "Sq"
 - "ST"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
@@ -253,8 +233,7 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
-- "s21_ObjectiveCBridgeableP"
-- "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -289,4 +268,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ad0a057f0266b399cc8ec47296973cbf"
+interface-hash: "e0cc11f4bef6b8a3542ea0b65659da7d"

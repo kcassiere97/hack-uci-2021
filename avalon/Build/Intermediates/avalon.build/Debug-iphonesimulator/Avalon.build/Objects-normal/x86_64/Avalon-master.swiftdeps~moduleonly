@@ -1,13 +1,13 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "b7c190cfd323fedd2463b79ddcb2aa5d"
-build_time: [1612097118, 798713000]
+build_time: [1612097942, 453296000]
 inputs:
-  "/Users/haruna/Desktop/LoginViewController.swift": [9223372036, 854775807]
-  "/Users/haruna/Desktop/LoginSignUpViewController.swift": [1612084582, 148195375]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/SignUpViewController.swift": [1612097866, 144791413]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/FeedViewController.swift": [9223372036, 854775807]
   "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/ViewController.swift": [1612067784, 966019264]
   "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/MapView.swift": [1612096468, 933454012]
-  "/Users/haruna/Desktop/ProfileViewController.swift": [1612089468, 329516822]
-  "/Users/haruna/Desktop/RegisterViewController.swift": [1612088290, 142217961]
   "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/AppDelegate.swift": [1612067784, 962896131]
-  "/Users/haruna/Desktop/infoViewController.swift": [1612091470, 960997243]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/LoginViewController.swift": [1612097812, 413776916]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/infoViewController.swift": [1612097896, 883103100]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/profileViewController.swift": [1612097916, 28114678]
   "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/SceneDelegate.swift": [1612067784, 965759738]

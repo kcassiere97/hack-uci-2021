@@ -144,10 +144,10 @@
             </objects>
             <point key="canvasLocation" x="-45" y="102"/>
         </scene>
-        <!--Register View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="Dhy-Ll-TPh">
             <objects>
-                <viewController id="mgh-y9-9mn" customClass="RegisterViewController" customModule="Avalon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mgh-y9-9mn" customClass="SignUpViewController" customModule="Avalon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8fm-94-xKV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -334,10 +334,10 @@
             </objects>
             <point key="canvasLocation" x="-1016" y="102"/>
         </scene>
-        <!--View Controller-->
+        <!--Feed View Controller-->
         <scene sceneID="ICY-0f-d4E">
             <objects>
-                <viewController id="uXM-vT-xtF" sceneMemberID="viewController">
+                <viewController id="uXM-vT-xtF" customClass="FeedViewController" customModule="Avalon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n1t-ij-UeS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -684,26 +684,10 @@ Hospitals</string>
             </objects>
             <point key="canvasLocation" x="3336" y="907"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="fXI-en-8Vk">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EeF-GL-YV9" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UaP-Qt-slE">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.2313431799" green="0.23138946290000001" blue="0.2313401997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBar>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bUb-AE-A9f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3407" y="102"/>
-        </scene>
         <!--Profile View Controller-->
         <scene sceneID="oma-4T-Kjc">
             <objects>
-                <viewController id="t15-wT-azU" customClass="ProfileViewController" customModule="Avalon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="t15-wT-azU" customClass="profileViewController" customModule="Avalon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q8g-S3-yhI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -827,7 +811,7 @@ Hospitals</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9fX-q3-2pW"/>
+        <segue reference="Iea-lf-oIE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="3c69a8bf9859ab301dec0577dbc7fb11-removebg-preview 1" width="160" height="100"/>
