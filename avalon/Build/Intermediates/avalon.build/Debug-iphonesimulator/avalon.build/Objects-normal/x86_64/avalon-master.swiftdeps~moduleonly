@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "b1079c2ed4695cd1afad26c429cc8b84"
-build_time: [1612024029, 183187000]
-inputs:
-  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/ContentView.swift": [1612022408, 340126789]
-  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/avalon/avalonApp.swift": [1612024027, 41770310]

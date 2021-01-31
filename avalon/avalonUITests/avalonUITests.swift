@@ -1,13 +1,13 @@
 //
-//  avalonUITests.swift
-//  avalonUITests
+//  AvalonUITests.swift
+//  AvalonUITests
 //
-//  Created by Kizar Cassiere on 1/29/21.
+//  Created by Kizar Cassiere on 1/30/21.
 //
 
 import XCTest
 
-class avalonUITests: XCTestCase {
+class AvalonUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

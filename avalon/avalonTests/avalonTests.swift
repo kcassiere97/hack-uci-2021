@@ -1,14 +1,14 @@
 //
-//  avalonTests.swift
-//  avalonTests
+//  AvalonTests.swift
+//  AvalonTests
 //
-//  Created by Kizar Cassiere on 1/29/21.
+//  Created by Kizar Cassiere on 1/30/21.
 //
 
 import XCTest
-@testable import avalon
+@testable import Avalon
 
-class avalonTests: XCTestCase {
+class AvalonTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
