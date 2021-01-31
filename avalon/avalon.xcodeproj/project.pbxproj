@@ -17,6 +17,8 @@
 		7EFF994625C6464400EC1DED /* AvalonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF994525C6464400EC1DED /* AvalonUITests.swift */; };
 		7EFF995725C6478500EC1DED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF995625C6478500EC1DED /* MapView.swift */; };
 		7EFF995C25C64F9A00EC1DED /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF995B25C64F9900EC1DED /* MapView.storyboard */; };
+		7EFF996425C6CA9B00EC1DED /* notification .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF996325C6CA9A00EC1DED /* notification .storyboard */; };
+		7EFF997525C7258E00EC1DED /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF997325C7258D00EC1DED /* Notification.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		7EFF994725C6464400EC1DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EFF995625C6478500EC1DED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7EFF995B25C64F9900EC1DED /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		7EFF996325C6CA9A00EC1DED /* notification .storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "notification .storyboard"; sourceTree = "<group>"; };
+		7EFF997425C7258D00EC1DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Avalon/Base.lproj/Notification.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +90,6 @@
 				7EFF992225C6463E00EC1DED /* Avalon */,
 				7EFF993925C6464400EC1DED /* AvalonTests */,
 				7EFF994425C6464400EC1DED /* AvalonUITests */,
-				7EFF992125C6463E00EC1DED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,20 +101,24 @@
 				7EFF994125C6464400EC1DED /* AvalonUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		7EFF992225C6463E00EC1DED /* Avalon */ = {
 			isa = PBXGroup;
 			children = (
+				7EFF997325C7258D00EC1DED /* Notification.storyboard */,
 				7EFF992325C6463E00EC1DED /* AppDelegate.swift */,
 				7EFF992525C6463E00EC1DED /* SceneDelegate.swift */,
 				7EFF992725C6463E00EC1DED /* ViewController.swift */,
-				7EFF992925C6463E00EC1DED /* Main.storyboard */,
 				7EFF995625C6478500EC1DED /* MapView.swift */,
+				7EFF992925C6463E00EC1DED /* Main.storyboard */,
 				7EFF992C25C6464400EC1DED /* Assets.xcassets */,
 				7EFF992E25C6464400EC1DED /* LaunchScreen.storyboard */,
 				7EFF993125C6464400EC1DED /* Info.plist */,
 				7EFF995B25C64F9900EC1DED /* MapView.storyboard */,
+				7EFF996325C6CA9A00EC1DED /* notification .storyboard */,
+				7EFF992125C6463E00EC1DED /* Products */,
 			);
 			path = Avalon;
 			sourceTree = "<group>";
@@ -239,8 +246,10 @@
 			files = (
 				7EFF993025C6464400EC1DED /* LaunchScreen.storyboard in Resources */,
 				7EFF992D25C6464400EC1DED /* Assets.xcassets in Resources */,
+				7EFF996425C6CA9B00EC1DED /* notification .storyboard in Resources */,
 				7EFF995C25C64F9A00EC1DED /* MapView.storyboard in Resources */,
 				7EFF992B25C6463E00EC1DED /* Main.storyboard in Resources */,
+				7EFF997525C7258E00EC1DED /* Notification.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +327,14 @@
 				7EFF992F25C6464400EC1DED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7EFF997325C7258D00EC1DED /* Notification.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFF997425C7258D00EC1DED /* Base */,
+			);
+			name = Notification.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
