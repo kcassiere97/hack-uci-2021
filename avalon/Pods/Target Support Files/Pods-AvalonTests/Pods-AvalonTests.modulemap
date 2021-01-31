@@ -1,0 +1,6 @@
+framework module Pods_AvalonTests {
+  umbrella header "Pods-AvalonTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

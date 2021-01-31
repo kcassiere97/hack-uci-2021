@@ -230,6 +230,14 @@ SWIFT_CLASS("_TtC6Avalon18FeedViewController")
 @end
 
 
+SWIFT_CLASS("_TtC6Avalon25LoginSignUpViewController")
+@interface LoginSignUpViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC6Avalon19LoginViewController")
 @interface LoginViewController : UIViewController
 - (void)viewDidLoad;

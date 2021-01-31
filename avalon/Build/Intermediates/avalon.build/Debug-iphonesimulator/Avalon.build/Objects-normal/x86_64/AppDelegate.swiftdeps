@@ -12,6 +12,7 @@ depends-top-level:
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "FirebaseApp"
 - "Set"
 - !private "StringLiteralType"
 - "UIApplication"
@@ -22,6 +23,7 @@ depends-top-level:
 - "UISceneSession"
 depends-member:
 - ["6Avalon11AppDelegateC", "Bool"]
+- !private ["6Avalon11AppDelegateC", "FirebaseApp"]
 - ["6Avalon11AppDelegateC", "Set"]
 - ["6Avalon11AppDelegateC", "UIApplication"]
 - ["6Avalon11AppDelegateC", "UIScene"]
@@ -47,6 +49,7 @@ depends-member:
 - ["SK", ""]
 - !private ["s7CVarArgP", "$main"]
 - ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "FirebaseApp"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - !private ["s7CVarArgP", "UISceneConfiguration"]
 - ["s7CVarArgP", ""]
@@ -62,6 +65,7 @@ depends-member:
 - ["s7CVarArgP", "applicationWillEnterForeground"]
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "configure"]
 - !private ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "role"]
@@ -70,6 +74,7 @@ depends-member:
 - ["SL", ""]
 - !private ["s28CustomDebugStringConvertibleP", "$main"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "FirebaseApp"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "UISceneConfiguration"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -85,12 +90,14 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "role"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - !private ["s23CustomStringConvertibleP", "$main"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "FirebaseApp"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "UISceneConfiguration"]
 - ["s23CustomStringConvertibleP", ""]
@@ -106,12 +113,14 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "configure"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "role"]
 - ["s23CustomStringConvertibleP", "window"]
 - !private ["SQ", "$main"]
 - ["SQ", "ConnectionOptions"]
+- !private ["SQ", "FirebaseApp"]
 - ["SQ", "LaunchOptionsKey"]
 - !private ["SQ", "UISceneConfiguration"]
 - ["SQ", ""]
@@ -127,6 +136,7 @@ depends-member:
 - ["SQ", "applicationWillEnterForeground"]
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
+- !private ["SQ", "configure"]
 - !private ["SQ", "init"]
 - ["SQ", "main"]
 - !private ["SQ", "role"]
@@ -135,8 +145,10 @@ depends-member:
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["So6FIRAppC", "configure"]
 - !private ["SH", "$main"]
 - ["SH", "ConnectionOptions"]
+- !private ["SH", "FirebaseApp"]
 - ["SH", "LaunchOptionsKey"]
 - !private ["SH", "UISceneConfiguration"]
 - ["SH", ""]
@@ -152,6 +164,7 @@ depends-member:
 - ["SH", "applicationWillEnterForeground"]
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
+- !private ["SH", "configure"]
 - !private ["SH", "init"]
 - ["SH", "main"]
 - !private ["SH", "role"]
@@ -163,6 +176,7 @@ depends-member:
 - !private ["So9NSCopyingP", "init"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "ConnectionOptions"]
+- !private ["So8NSObjectC", "FirebaseApp"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "UIApplication"]
@@ -183,6 +197,9 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - !private ["So8NSObjectC", "configurationWithName"]
+- !private ["So8NSObjectC", "configure"]
+- !private ["So8NSObjectC", "configureWithName"]
+- !private ["So8NSObjectC", "configureWithOptions"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "main"]
 - !private ["So8NSObjectC", "role"]
@@ -190,6 +207,7 @@ depends-member:
 - ["So8NSObjectP", "$main"]
 - ["So8NSObjectP", "Bool"]
 - ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "FirebaseApp"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - ["So8NSObjectP", "Set"]
 - ["So8NSObjectP", "UIApplication"]
@@ -210,6 +228,9 @@ depends-member:
 - ["So8NSObjectP", "applicationWillResignActive"]
 - ["So8NSObjectP", "applicationWillTerminate"]
 - !private ["So8NSObjectP", "configurationWithName"]
+- !private ["So8NSObjectP", "configure"]
+- !private ["So8NSObjectP", "configureWithName"]
+- !private ["So8NSObjectP", "configureWithOptions"]
 - ["So8NSObjectP", "deinit"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "main"]
@@ -222,6 +243,7 @@ depends-member:
 - ["s20TextOutputStreamableP", ""]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - ["So21UIApplicationDelegateP", "$main"]
+- !private ["So21UIApplicationDelegateP", "FirebaseApp"]
 - !private ["So21UIApplicationDelegateP", "UISceneConfiguration"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
@@ -243,6 +265,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "$main"]
 - ["So30UIPasteConfigurationSupportingP", "Bool"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "FirebaseApp"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - ["So30UIPasteConfigurationSupportingP", "Set"]
 - ["So30UIPasteConfigurationSupportingP", "UIApplication"]
@@ -268,6 +291,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "ConnectionOptions"]
+- !private ["So11UIResponderC", "FirebaseApp"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - ["So11UIResponderC", "Set"]
 - ["So11UIResponderC", "UIApplication"]
@@ -293,6 +317,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "$main"]
 - ["So30UIResponderStandardEditActionsP", "Bool"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "FirebaseApp"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - ["So30UIResponderStandardEditActionsP", "Set"]
 - ["So30UIResponderStandardEditActionsP", "UIApplication"]
@@ -322,6 +347,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "$main"]
 - ["So23UIUserActivityRestoringP", "Bool"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- !private ["So23UIUserActivityRestoringP", "FirebaseApp"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - ["So23UIUserActivityRestoringP", "Set"]
 - ["So23UIUserActivityRestoringP", "UIApplication"]
@@ -352,6 +378,7 @@ depends-member:
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "$main"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FirebaseApp"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UISceneConfiguration"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -367,12 +394,14 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "main"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "role"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "$main"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FirebaseApp"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISceneConfiguration"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
@@ -388,6 +417,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillEnterForeground"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillResignActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configure"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "role"]
@@ -405,6 +435,7 @@ depends-nominal:
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So6FIRAppC"
 - "SH"
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
@@ -448,7 +479,52 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -465,4 +541,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5a02803bdeeaea070186d4ef1bfa1937"
+interface-hash: "aa679091800a4aa0aa23212c5f932547"
