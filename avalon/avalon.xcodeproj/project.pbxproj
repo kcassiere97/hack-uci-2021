@@ -17,6 +17,11 @@
 		7EFF994625C6464400EC1DED /* AvalonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF994525C6464400EC1DED /* AvalonUITests.swift */; };
 		7EFF995725C6478500EC1DED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF995625C6478500EC1DED /* MapView.swift */; };
 		7EFF995C25C64F9A00EC1DED /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF995B25C64F9900EC1DED /* MapView.storyboard */; };
+		990EEC8F25C6DDBF00FCC205 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EEC8E25C6DDBF00FCC205 /* ProfileViewController.swift */; };
+		990EEC9725C6DDCB00FCC205 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EEC9625C6DDCB00FCC205 /* RegisterViewController.swift */; };
+		990EEC9C25C6DDD700FCC205 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EEC9B25C6DDD700FCC205 /* infoViewController.swift */; };
+		990EECA125C6DDDB00FCC205 /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EECA025C6DDDB00FCC205 /* LoginSignUpViewController.swift */; };
+		990EECA625C6DDDE00FCC205 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EECA525C6DDDE00FCC205 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		7EFF994725C6464400EC1DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EFF995625C6478500EC1DED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7EFF995B25C64F9900EC1DED /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		990EEC8E25C6DDBF00FCC205 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../../../../../Desktop/ProfileViewController.swift; sourceTree = "<group>"; };
+		990EEC9625C6DDCB00FCC205 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../../../../../Desktop/RegisterViewController.swift; sourceTree = "<group>"; };
+		990EEC9B25C6DDD700FCC205 /* infoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = infoViewController.swift; path = ../../../../../Desktop/infoViewController.swift; sourceTree = "<group>"; };
+		990EECA025C6DDDB00FCC205 /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginSignUpViewController.swift; path = ../../../../../Desktop/LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		990EECA525C6DDDE00FCC205 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../../Desktop/LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				7EFF992325C6463E00EC1DED /* AppDelegate.swift */,
+				990EEC8E25C6DDBF00FCC205 /* ProfileViewController.swift */,
+				990EEC9625C6DDCB00FCC205 /* RegisterViewController.swift */,
+				990EECA525C6DDDE00FCC205 /* LoginViewController.swift */,
+				990EECA025C6DDDB00FCC205 /* LoginSignUpViewController.swift */,
 				7EFF992525C6463E00EC1DED /* SceneDelegate.swift */,
+				990EEC9B25C6DDD700FCC205 /* infoViewController.swift */,
 				7EFF992725C6463E00EC1DED /* ViewController.swift */,
 				7EFF992925C6463E00EC1DED /* Main.storyboard */,
 				7EFF995625C6478500EC1DED /* MapView.swift */,
@@ -212,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7EFF991B25C6463E00EC1DED /* Build configuration list for PBXProject "Avalon" */;
+			buildConfigurationList = 7EFF991B25C6463E00EC1DED /* Build configuration list for PBXProject "avalon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -265,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990EECA625C6DDDE00FCC205 /* LoginViewController.swift in Sources */,
+				990EECA125C6DDDB00FCC205 /* LoginSignUpViewController.swift in Sources */,
 				7EFF992825C6463E00EC1DED /* ViewController.swift in Sources */,
 				7EFF995725C6478500EC1DED /* MapView.swift in Sources */,
+				990EEC8F25C6DDBF00FCC205 /* ProfileViewController.swift in Sources */,
+				990EEC9725C6DDCB00FCC205 /* RegisterViewController.swift in Sources */,
 				7EFF992425C6463E00EC1DED /* AppDelegate.swift in Sources */,
+				990EEC9C25C6DDD700FCC205 /* infoViewController.swift in Sources */,
 				7EFF992625C6463E00EC1DED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,7 +584,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7EFF991B25C6463E00EC1DED /* Build configuration list for PBXProject "Avalon" */ = {
+		7EFF991B25C6463E00EC1DED /* Build configuration list for PBXProject "avalon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EFF994825C6464400EC1DED /* Debug */,

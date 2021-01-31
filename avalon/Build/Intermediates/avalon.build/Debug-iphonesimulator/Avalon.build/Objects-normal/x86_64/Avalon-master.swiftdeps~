@@ -1,8 +1,12 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "b7c190cfd323fedd2463b79ddcb2aa5d"
-build_time: [1612096347, 394334000]
+build_time: [1612097115, 272193000]
 inputs:
-  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/ViewController.swift": !dirty [1612067784, 966019264]
-  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/MapView.swift": !dirty [1612096342, 201899997]
-  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/AppDelegate.swift": !dirty [1612067784, 962896131]
-  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/SceneDelegate.swift": !dirty [1612067784, 965759738]
+  "/Users/haruna/Desktop/LoginSignUpViewController.swift": [9223372036, 854775807]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/ViewController.swift": [1612067784, 966019264]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/MapView.swift": [1612096468, 933454012]
+  "/Users/haruna/Desktop/ProfileViewController.swift": [1612089468, 329516822]
+  "/Users/haruna/Desktop/RegisterViewController.swift": [1612088290, 142217961]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/AppDelegate.swift": [1612067784, 962896131]
+  "/Users/haruna/Desktop/infoViewController.swift": [1612091470, 960997243]
+  "/Users/haruna/Documents/iOSdev/hack-uci-2021/avalon/Avalon/SceneDelegate.swift": [1612067784, 965759738]
