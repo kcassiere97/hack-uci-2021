@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Avalon" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,10 +20,36 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="wdp-W6-JZL">
+                                <rect key="frame" x="9" y="94" width="396" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tabBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zlg-qv-It2">
+                                <rect key="frame" x="0.0" y="806" width="414" height="83"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem image="Location" selectedImage="Location" springLoaded="YES" id="GH4-A1-IlE"/>
+                                    <tabBarItem title="Item" image="Bookmark" id="FDO-Uk-lRH"/>
+                                    <tabBarItem title="Item" image="Home" id="vAy-Wp-k8a"/>
+                                    <tabBarItem title="Item" image="Notification" id="7O5-hC-49O"/>
+                                    <tabBarItem image="Profile" id="l8q-4B-IiJ"/>
+                                </items>
+                                <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zlg-qv-It2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7FQ-Yf-dXA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wdp-W6-JZL" secondAttribute="trailing" constant="9" id="H2h-if-Ovf"/>
+                            <constraint firstItem="Zlg-qv-It2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PpZ-yG-OZT"/>
+                            <constraint firstItem="wdp-W6-JZL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="fHy-8U-qIi"/>
+                            <constraint firstItem="Zlg-qv-It2" firstAttribute="top" secondItem="wdp-W6-JZL" secondAttribute="bottom" constant="675" id="oZ0-1t-AKj"/>
+                            <constraint firstItem="wdp-W6-JZL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="qtG-4M-i9N"/>
+                            <constraint firstItem="wdp-W6-JZL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="wtx-Pl-7kN"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="e3L-Io-xiF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -31,6 +57,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Bookmark" width="40" height="40"/>
+        <image name="Home" width="35" height="35"/>
+        <image name="Location" width="40" height="40"/>
+        <image name="Notification" width="40" height="40"/>
+        <image name="Profile" width="40" height="40"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

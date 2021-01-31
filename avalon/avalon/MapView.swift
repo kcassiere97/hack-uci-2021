@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-@IBOutlet private var mapView: MKMapView!
+//@IBOutlet private var mapView: MKMapView!
 // Set initial location in Honolulu
 let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
 
@@ -25,5 +25,5 @@ private extension MKMapView {
   }
 }
 
-mapView.centerToLocation(initialLocation)
+//mapView.centerToLocation(initialLocation)
 
